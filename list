@@ -1,8 +1,19 @@
+#Runner up score
 if __name__ == '__main__':
- n = int(input().strip())
- arr = list(map(int, input().strip().split()))
-print(n)
-
+  n = int(input().strip())
+  scores = list(map(int, input().strip().split()))
+    
+    # Find the maximum score
+    max_score = max(scores)
+    
+    # Remove all occurrences 
+    scores = [score for score in scores if score != max_score]
+    
+    # Find the new maximum score
+    runner_up_score = max(scores)
+    
+    # Print the runner-up score
+    print(runner_up_score)
 
 
 Input
