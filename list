@@ -1,0 +1,12 @@
+if __name__ == '__main__':
+ n = int(input().strip())
+ arr = list(map(int, input().strip().split()))
+print(n)
+
+
+
+Input
+5
+2 3 6 6 5
+Output
+5
