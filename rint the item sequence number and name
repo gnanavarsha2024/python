@@ -1,0 +1,25 @@
+There are 5 items in a buffet  - Roti , mushroom curry, Salads, Palak Panner, Veg Palao
+
+Create a list in the order these items are arranged for buffet
+
+Iterate over the list and print the item sequence number and name (hint : Use enumarte function)
+Answer
+
+buffet=["Roti","mushroom","curry","salad","palak","panner","veg palao"]
+for index,item in enumerate(buffet,start=1):
+  print(f"{index}.{item}")
+
+output
+1.Roti
+2.mushroom
+3.curry
+4.salad
+5.palak
+6.panner
+7.veg palao
+
+
+
+
+
+
