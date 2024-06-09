@@ -1,0 +1,32 @@
+A school has following rules for grading system:
+
+    Below 25 - F
+    25 to 45 - E
+    45 to 50 - D
+    50 to 60 - C
+    60 to 80 - B
+    Above 80 - A
+
+Using the input() function, ask the user to enter their grade and print the corresponding grade.
+
+grade=int(input("Enter your grade:"))
+if grade<25:
+ print("your grade is:F")
+elif grade>=25 and grade<45:
+  print("your grade is:E")
+elif grade>=45 and grade<50:
+  print("your grade is:D")
+elif grade>=50 and grade<60:
+  print("your grade is:c")
+elif grade>=60 and grade<80:
+  print("your grade is:D")
+else:
+    print("your grade is:A")
+
+
+
+
+
+
+
+
