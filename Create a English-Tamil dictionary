@@ -1,0 +1,21 @@
+Create a English-Tamil dictionary named ‘e2t’, 'come' is ‘vaa’, ‘go’ is ‘po’, ‘he’ is ‘avan’
+
+* Get Tamil of go
+
+e2t={
+    'come':'vaa',
+    'go':'po',
+    'he':'avan'
+}
+translation=e2t['go']
+print("tamil of 'go':",translation)
+output
+tamil of 'go': po
+
+
+
+
+
+
+
+
