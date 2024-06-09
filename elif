@@ -1,0 +1,22 @@
+Accept **Age** value from the user as input and store it in variable called my_age
+if Age of the user is less than or equal to 35 print "Higher equity allocation"
+if Age of the user is more than 35 and less than 50,  print "Reduce from Equity, increase debt instruments"
+if Age of the user is more than 50 and less than 65,  print "About to retire. Keep almost all in secured debt isntruments"
+everything else, print "You are retired already"
+
+solution 
+# Type your solution here.........
+age=int(input("please enter your age:"))
+if age<=35:
+  print("Higher equity allocation")
+elif age>35 and age>50:
+  print("Reduce fro Equity,increase debt instruments")
+elif age>50 and age>65:
+ print("About to retire.Keep almost all in secured debt instruments")
+else:
+  print("you are retired already")
+
+output
+please enter your age:65
+Reduce fro Equity,increase debt instruments
+
